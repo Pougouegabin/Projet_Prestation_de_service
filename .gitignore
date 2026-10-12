@@ -1,0 +1,27 @@
+# Git metadata from nested repositories
+.git
+**/.git
+
+# Frontend (Angular / Node)
+frontend/ProxiService/node_modules/
+frontend/ProxiService/.angular/
+frontend/ProxiService/dist/
+frontend/ProxiService/coverage/
+
+# Backend (Maven / Java)
+backend/target/
+backend/build/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secrets.properties
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
